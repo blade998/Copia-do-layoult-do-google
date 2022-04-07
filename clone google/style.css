@@ -1,0 +1,268 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 48px;
+    display: flex;
+    justify-content: end;
+    color: #000000DE;
+
+}
+.menu{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    padding: 8px;
+    
+}
+.title{
+   width: 128px;
+   height: 48px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items:center ;
+   font-size: small;
+}
+.logo{
+    width: 96px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.g1 .g2{
+    width: 35px;
+    height: 24px;
+    display: flex;
+  
+}
+.perfil{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+
+}
+.perfil img{
+    border-radius: 50%;
+}
+.logo-google{
+    display: flex;
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items:flex-end;
+
+}
+.image-google{
+    display: flex;
+    width: 272px;
+    height: 92px;
+    
+}
+.container{
+    display: flex;
+    height: 160px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.body-browser{
+    display: flex;
+    width: 1629px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.barra-pesquisa{
+    display: flex;
+    width: 582px;
+    height: 42px;
+    border-radius: 1em;
+    border: solid #e1e5eb 1px;
+    
+}
+.icon-pesquisa{
+    display: flex;
+    width: 33px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-browser{
+    margin-top: 3px;
+    width: 447px;
+    height: 34px;
+}
+input{
+    width: 447px;
+    height: 34px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.icon-teclado{
+    display: flex;
+    width: 40px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+padding-right: 5px;}
+.icon-micro{
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    display: flex;
+    width: 100%;
+    height: 160px;
+    justify-content: center;
+   
+    
+}
+.tags{
+    display: flex;
+    width:1629px ;
+    height: 140px;
+    justify-content: center;
+    color:#70757a ;
+    
+
+    
+}
+.ta1{
+    display: flex;
+    width: 142px;
+    height: 36px;
+    background-color: #F8F9Fa;
+    align-items: center;
+    justify-content: center;
+   margin-right: 13px;
+   border-radius: 1em;
+   color: black;
+   
+}
+.ta2{
+    display: flex;
+    width: 136px;
+    height: 36px;
+    background-color: #F8F9Fa;
+    justify-content: center;
+    align-items: center;
+    margin-right: 11px;
+    color: black;
+    border-radius: 1em;
+ 
+  
+
+}
+footer{
+    height: 169px;
+    width: 100%;
+
+   
+}
+.corpo1{display: flex;
+       height: 48px;
+       color: #70757a;
+       align-items: center;
+       background-color: #f5efef;
+      
+       
+}
+.corpo-2{
+    display: flex;
+    background-color:#f5efef ;
+    height: 58px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #70757a;
+    m
+  
+    
+}.divi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-a{
+    display: flex;
+    width: 68px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+}
+.text-b{
+    width: 103px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-c{
+    width: 88px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-d{
+    width: 199px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-e{
+    width: 104px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-f{
+    width: 76px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-g{
+    height: 46px;
+    width: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:600px) {
+    .corpo1, .divi2{
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .tags{
+        width: 50%;
+        font-size: medium;
+    }
+    .barra-pesquisa{
+        width: 272px;
+    }
+}
+
+
